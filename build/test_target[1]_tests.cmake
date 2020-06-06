@@ -1,0 +1,5 @@
+add_test( Footest.ZeroEqual /home/nullspace/workspace/Graph/build/test_target [==[--gtest_filter=Footest.ZeroEqual]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Footest.ZeroEqual PROPERTIES WORKING_DIRECTORY /home/nullspace/workspace/Graph/build)
+add_test( Footest.HandleNoneZeroInput /home/nullspace/workspace/Graph/build/test_target [==[--gtest_filter=Footest.HandleNoneZeroInput]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Footest.HandleNoneZeroInput PROPERTIES WORKING_DIRECTORY /home/nullspace/workspace/Graph/build)
+set( test_target_TESTS Footest.ZeroEqual Footest.HandleNoneZeroInput)

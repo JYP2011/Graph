@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/nullspace/workspace/Graph/build",
+  "command": "/usr/bin/clang++-9   -I/usr/lib/llvm-9/include -I/usr/include/opencv   -std=c++11 -O3 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++11 -o CMakeFiles/test_target.dir/test_target.cc.o -c /home/nullspace/workspace/Graph/test_target.cc",
+  "file": "/home/nullspace/workspace/Graph/test_target.cc"
+},
+
+{
+  "directory": "/home/nullspace/workspace/Graph/build",
+  "command": "/usr/bin/clang++-9   -I/usr/lib/llvm-9/include -I/usr/include/opencv   -std=c++11 -O3 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++11 -o CMakeFiles/boost_example.dir/boost_example.cc.o -c /home/nullspace/workspace/Graph/boost_example.cc",
+  "file": "/home/nullspace/workspace/Graph/boost_example.cc"
+},
+
+{
+  "directory": "/home/nullspace/workspace/Graph/build",
+  "command": "/usr/bin/clang++-9   -I/usr/lib/llvm-9/include -I/usr/include/opencv   -std=c++11 -O3 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++11 -o CMakeFiles/hello-world.dir/main.cc.o -c /home/nullspace/workspace/Graph/main.cc",
+  "file": "/home/nullspace/workspace/Graph/main.cc"
+}
+]

@@ -1,0 +1,5 @@
+if(EXISTS "/home/nullspace/workspace/Graph/build/test_target[1]_tests.cmake")
+  include("/home/nullspace/workspace/Graph/build/test_target[1]_tests.cmake")
+else()
+  add_test(test_target_NOT_BUILT test_target_NOT_BUILT)
+endif()
